@@ -1,0 +1,291 @@
+[ {
+  "exportId" : "0qShjjrqSsK3qj70kp4ocg",
+  "name" : "result",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "How is the flavor?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "1qQSpmLBQeu8EpbaWC30PA",
+  "name" : "harvestDate",
+  "paramType" : {
+    "exportId" : "AoPDVvN5TLiU1D_x5hcXsw",
+    "name" : "HarvestDate"
+  },
+  "question" : "When is the scheduled harvest?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "5cxOx4U2Sjy-3XofPFsJUQ",
+  "name" : "result",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "What is the value for `result`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "60j1RYBRRE6a_tluT10_bQ",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "76QqFR6jQHaPmvrvW5_i3g",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "C7WsamYBTxG0_UvpaK926g",
+  "name" : "room",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `room`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "FZlPGpCfTs-aduKIAsibfw",
+  "name" : "springMixAppearance",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Spring mix (appearance)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "FbgBPgEPTm-yqENNvfEwzA",
+  "name" : "babyArugulaFlavor",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Baby arugula (flavor)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "In6BOkQtSKSNexzbZpEl2Q",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "KEbqme8dRuKMEDbP7YFHsw",
+  "name" : "babyKaleFlavor",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Baby kale (flavor)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "LkOBre4BR82GqrPVRNzaIA",
+  "name" : "babyRomaineAppearance",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Baby romaine (appearance)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "PvQftnGHS4Gr6GRMOP_vPw",
+  "name" : "crop",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `crop`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "RU-LmhBaT-uJbabisnjGNQ",
+  "name" : "babyKaleAppearance",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Baby kale (appearance)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "XzLEMvW1R7aH4oUx_cmarQ",
+  "name" : "result",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "How is the appearance?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "Y9wPEn21Rs-ESepAjEDBiQ",
+  "name" : "babyRomaineFlavor",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Baby romaine (flavor)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "Z5P0uQISRJq8TMEoUHoMFw",
+  "name" : "springMixFlavor",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Spring mix (flavor)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "c_nvzv0jThe6fjL-PuaDwg",
+  "name" : "room",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which room?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "fW86wfriRhqlLwvUeVW19Q",
+  "name" : "crop",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `crop`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "h-KhADPQSECThSUQbUGxjA",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "iRCRkJeLR5Ck8bmJrwPPOQ",
+  "name" : "babyArugulaAppearance",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "Baby arugula (appearance)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "jBQTcVFZR6COAnHAspppIQ",
+  "name" : "crop",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `crop`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "lPGKsT2uS3ecXpy5cLQJMQ",
+  "name" : "details",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Describe the details of the issue.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "nYvwkB3bRC-jtOqAHHqjEg",
+  "name" : "crop",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `crop`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "phsqDpPtROCKfNAMlfuNOA",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "rhud2_tbQHiAzSub1CJ4Vg",
+  "name" : "summary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `summary`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "ulc1OoH3QSav2Qz9F1VCKQ",
+  "name" : "result",
+  "paramType" : {
+    "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+    "name" : "SensoryResult"
+  },
+  "question" : "What is the value for `result`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "wX3K3eudRemYs8m5F8wPOg",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "zAcbs2lFQtS-iFJPRdUrsQ",
+  "name" : "details",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Describe the details of the issue.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "zcvOxQIjQ4KKaM7eusqc7w",
+  "name" : "crop",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which crop's appearance are you checking?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

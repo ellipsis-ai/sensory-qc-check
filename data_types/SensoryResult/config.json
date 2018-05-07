@@ -1,0 +1,10 @@
+{
+  "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
+  "name" : "SensoryResult",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "exportId" : "AoPDVvN5TLiU1D_x5hcXsw",
+  "name" : "HarvestDate",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

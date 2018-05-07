@@ -1,0 +1,7 @@
+{
+  "name" : "Sensory QC check",
+  "exportId" : "hSL4EikmSjq0y3AjrJ8JLQ",
+  "requiredAWSConfigs" : [ ],
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}
