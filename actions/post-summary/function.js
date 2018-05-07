@@ -35,7 +35,7 @@ function detailsFor(result) {
   }
 }
 
-const channels = ["testing-sensory-qc", "testing123"].filter(ea => ea != channel);
+const channels = ["ssf-postharvest", "sensory-results"].filter(ea => ea != channel);
 api.say({ message: summary }).then(res => {
   Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
 });
