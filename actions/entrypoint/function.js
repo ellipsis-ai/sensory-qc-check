@@ -18,7 +18,8 @@ function choiceFor(room) {
     label: room,
     actionName: "start-checklist", 
     args: [ { name: "room", value: room } ],
-    allowMultipleSelections: true
+    allowMultipleSelections: true,
+    allowOthers: true
   };
 }
 }
