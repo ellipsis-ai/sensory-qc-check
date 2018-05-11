@@ -23,13 +23,21 @@ ${resultsText}
 function resultFor(crop, flavor, appearance) {
   return `
 ${flavor.emoji}  ${crop} (flavor)  ${detailsFor(flavor)}
-${appearance.emoji}  ${crop} (appearance)  ${detailsFor(appearance)}
+${appearance.emoji}  ${crop} (appearance)  ${detailsFor(appearance)} ${pictureUrlFor(appearance)}
 `.trim();
 }
 
 function detailsFor(result) {
   if (result.details) {
     return `_details: ${result.details.trim()}_`;
+  } else {
+    return "";
+  }
+}
+
+function pictureUrlFor(result) {
+  if (result.pictureUrl) {
+    return `[View image](${result.pictureUrl})`;
   } else {
     return "";
   }
