@@ -129,6 +129,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "W78rpUR2QNyE6Q7E7PwNTw",
+  "name" : "picture",
+  "paramType" : {
+    "exportId" : "File",
+    "name" : "File"
+  },
+  "question" : "Paste or upload an image showing the issue.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "XzLEMvW1R7aH4oUx_cmarQ",
   "name" : "result",
   "paramType" : {
