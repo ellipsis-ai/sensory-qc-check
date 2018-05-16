@@ -18,6 +18,8 @@ const summary = `
 Sensory QC check has been completed for ${context.room} (harvest date: ${context.harvestDate}) by <@${user}>:
 
 ${resultsText}
+
+CC: <@U7PCDJ1E2> <@U88PENL9W>
 `;
 
 function resultFor(crop, flavor, appearance) {
