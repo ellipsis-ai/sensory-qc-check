@@ -1,7 +1,7 @@
 {
   "name" : "Sensory QC pre-check",
   "exportId" : "hSL4EikmSjq0y3AjrJ8JLQ",
-  "icon" : "👅👀",
+  "icon" : "👅",
   "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]

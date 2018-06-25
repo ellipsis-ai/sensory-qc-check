@@ -2,5 +2,7 @@
   "exportId" : "OtmY9y1WQcW8NTKpjAxNHg",
   "name" : "run-flavor-check",
   "forcePrivateResponse" : true,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }

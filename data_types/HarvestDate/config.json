@@ -2,7 +2,9 @@
   "exportId" : "AoPDVvN5TLiU1D_x5hcXsw",
   "name" : "HarvestDate",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : true,
   "isDataType" : true,
+  "isTest" : false,
   "dataTypeConfig" : {
     "fields" : [ ],
     "usesCode" : true

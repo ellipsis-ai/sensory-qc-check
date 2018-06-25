@@ -2,7 +2,9 @@
   "exportId" : "AeVWNCahQZ2AmG-rH_bSzg",
   "name" : "SensoryResult",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : true,
   "isDataType" : true,
+  "isTest" : false,
   "dataTypeConfig" : {
     "fields" : [ ],
     "usesCode" : true

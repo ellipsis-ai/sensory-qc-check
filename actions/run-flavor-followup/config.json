@@ -2,5 +2,7 @@
   "exportId" : "lfe0eAC9TdWXVaDmiHfA8w",
   "name" : "run-flavor-followup",
   "forcePrivateResponse" : false,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }

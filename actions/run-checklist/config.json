@@ -2,5 +2,7 @@
   "exportId" : "CGiXxe6SRYiRUTKjgipjWw",
   "name" : "run-checklist",
   "forcePrivateResponse" : false,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }
