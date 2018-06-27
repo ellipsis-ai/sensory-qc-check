@@ -19,7 +19,7 @@ function filterOutDuplicates(logs) {
 }
 
 function prepareLogs(logs) {
-  const sorted = logs.sort((a, b) => a.timestamp - b.timestamp);
+  const sorted = logs.sort((a, b) => moment(a.timestamp).toDate() - moment(b.timestamp).toDate());
   return filterOutDuplicates(filterOutAdminLogs(sorted));
 }
 
