@@ -129,6 +129,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "UoBhC8KRRt-emHIuwz2WDA",
+  "name" : "fromYear",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `fromYear`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "W78rpUR2QNyE6Q7E7PwNTw",
   "name" : "picture",
   "paramType" : {
@@ -229,6 +239,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "n2T9Ad0aQX-hu8N7-0dZcw",
+  "name" : "fromDay",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `fromDay`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "nYvwkB3bRC-jtOqAHHqjEg",
   "name" : "crop",
   "paramType" : {
@@ -266,6 +286,16 @@
     "name" : "SensoryResult"
   },
   "question" : "What is the value for `result`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "vZhsxb-OThCQF-9ElnvvLA",
+  "name" : "fromMonth",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `fromMonth`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
