@@ -7,6 +7,7 @@ const channel = ellipsis.userInfo.messageInfo.channel;
 const user = ellipsis.userInfo.messageInfo.userId;
 const Context = require('context');
 const context = new Context(JSON.parse(contextString));
+const saveResult = require('save-result');
 
 const legend = options.map(ea => `${ea.emoji} = ${ea.name}`).join(", ");
 const resultsText = crops.map(crop => {
@@ -21,6 +22,26 @@ ${resultsText}
 
 CC: <@U7PCDJ1E2> <@U88PENL9W>
 `;
+
+function saveResults() {
+  const ts = (new Date()).toISOString();
+  return Promise.all(crops.map(ea => {
+    const resultKinds = context.resultFor(ea);
+    return Promise.all(["flavor", "appearance"].map(resultType => {
+      const result = resultKinds[resultType];
+      return saveResult(ellipsis, {
+        crop: ea,
+        room: context.room,
+        resultType: resultType,
+        result: result.id,
+        details: result.details,
+        pictureUrl: result.pictureUrl,
+        harvestDate: context.harvestDate,
+        timestamp: ts
+      });
+    }));
+  }));
+}
 
 function resultFor(crop, flavor, appearance) {
   return `
@@ -45,9 +66,11 @@ function pictureUrlFor(result) {
   }
 }
 
-const channels = ["ssf-postharvest", "sensory-results"].filter(ea => ea != channel);
-api.say({ message: summary }).then(res => {
-  Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
+const channels = ["testing123"].filter(ea => ea != channel);
+saveResults().then(res => {
+  api.say({ message: summary }).then(res => {
+    Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
+  });
 });
 
 function postSummaryTo(channel) {
