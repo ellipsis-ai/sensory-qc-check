@@ -1,0 +1,6 @@
+[ {
+  "text" : "sensory qc check results since {fromYear}-{fromMonth}-{fromDay}",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
